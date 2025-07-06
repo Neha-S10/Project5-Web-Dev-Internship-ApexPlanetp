@@ -1,8 +1,10 @@
 📑 Objective:
+
         ✅ Build a comprehensive web app and ensure its performance, responsiveness, and compatibility.
         
 
 📝 Steps :
+
       1️⃣  Build a Full Web Application (Capstone Project) :
             ✅ Objective: Integrate all skills into one complete web app.
             ✅ Actions: Develop a final project (e.g., an e-commerce site, blog, or advanced portfolio) with dynamic features, using HTML, CSS, and JavaScript.
