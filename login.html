@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+</head>
+
+<body>
+
+
+    <section id="contact">
+        <h2>Login Here</h2>
+        <form id="contactForm" novalidate>
+            <label for="name">Name:</label>
+            <input type="text" id="name" required placeholder="Your name" />
+
+
+            <label for="phone">Phone No:</label>
+            <input type="phone" id="phone" required placeholder="Your phone no." />
+
+            <label for="bank">BankAccount No:</label>
+            <input type="bank" id="bank" required placeholder="Your bankaccount no." />
+
+            <button type="submit">Login</button>
+            <div class="message" id="formMessage"></div>
+        </form>
+    </section>
+</body>
+<style>
+    #contact form {
+        max-width: 500px;
+        margin: 0 auto;
+        background: white;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    #contact label {
+        display: block;
+        margin-bottom: 5px;
+        font-weight: bold;
+    }
+
+    #contact input,
+#contact textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+    resize: vertical;
+}
+    #contact button {
+        background-color: red;
+        color: white;
+        border: none;
+        padding: 12px 20px;
+        font-size: 1rem;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    }
+
+    #contact button:hover {
+        background-color: black;
+    }
+
+    #contact .message {
+        text-align: center;
+        margin-top: 10px;
+        font-weight: bold;
+        color: black;
+    }
+    h2{
+        color: rgb(148, 51, 51);
+    }
+</style>
+
+</html>
